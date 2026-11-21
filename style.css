@@ -11,15 +11,11 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   background-color: rgba(0, 0, 0, 0.8);
   padding: 10px;
-  border-radius: 0 0 10px 10px;
 }
-.logo {
-  transform: scale(1.2);
-  transform-origin: left center;
-}
+
 .nav-links {
   display: flex;
   align-items: center;
