@@ -6,15 +6,15 @@ html, body {
 
 body {
     background: linear-gradient(to bottom, #000000,#111111,#777777, #ffffff);
-    font-family: Inter, Roboto, Arial, sans-serif;
+    font-family: Avenir, Montserrat, Corbel, 'URW Gothic', source-sans-pro, sans-serif;
+    font-weight: normal;
 }
 /*---------navbar section---------*/
 .navbar {
   display: flex;
   justify-content: space-evenly;
   background-color: #000000;
-  padding: 10px;
-  margin-bottom: 60px;
+  border-bottom: 3px solid #9C111E;
 }
 
 .nav-links {
@@ -46,13 +46,14 @@ body {
 
 /*---------hero section---------*/
 .hero-text {
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   padding: 20px;
   max-width: 700px;
-  margin: 0 0 0 22%;
+  margin: 4% 0 0 19%;
 }
 
 .hero-title {
@@ -84,4 +85,12 @@ body {
 
 .hero-button:hover {
   background-color: #790E18;
+}
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0 6px 10px white;
+
 }
